@@ -1,0 +1,67 @@
+/* Reuse page-header from About.css via utility or copy, I'll copy but change bg */
+.services-header {
+    background: linear-gradient(rgba(15, 44, 89, 0.8), rgba(15, 44, 89, 0.8)), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-white);
+    padding-top: 80px;
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.service-item {
+    display: flex;
+    gap: 40px;
+    background: var(--bg-surface);
+    padding: 40px;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    align-items: flex-start;
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.service-item-icon {
+    background-color: var(--bg-light-blue);
+    color: var(--primary-color);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.service-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: var(--primary-color);
+}
+
+.service-info p {
+    color: var(--text-medium);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
