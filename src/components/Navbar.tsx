@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Plane, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '../assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -34,8 +35,8 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <Plane className="logo-icon" size={28} />
-          BERMACH
+          <img src={logo} alt="BEMACH" className="logo-img" />
+          BEMACH
         </Link>
 
         <div className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>

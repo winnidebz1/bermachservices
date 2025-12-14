@@ -34,6 +34,12 @@
     gap: 10px;
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
 .navbar.scrolled .navbar-logo {
     color: var(--primary-color);
 }
