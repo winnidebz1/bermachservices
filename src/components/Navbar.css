@@ -99,6 +99,7 @@
 
     .mobile-menu-btn {
         display: block;
+        color: var(--text-white);
     }
 
     .navbar-logo {
