@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Award, Globe, Tag, Heart, ShieldCheck } from 'lucide-react';
 import './WhyChooseUs.css';
 
@@ -45,7 +46,10 @@ const WhyChooseUs = () => {
                     </div>
 
                     <div className="highlight-section">
-                        <h2>“We handle all the details with expertise — so you can travel with peace of mind.”</h2>
+                        <h2 style={{ marginBottom: '30px' }}>“We handle all the details with expertise — so you can travel with peace of mind.”</h2>
+                        <Link to="/contact" className="btn btn-outline" style={{ borderColor: 'white', color: 'white', marginTop: '20px' }}>
+                            Start Your Journey
+                        </Link>
                     </div>
                 </div>
             </section>

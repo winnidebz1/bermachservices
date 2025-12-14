@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './About.css';
 import aboutTeamImg from '../assets/about_team.png';
 
@@ -50,6 +51,15 @@ const About = () => {
                             <p>Long-term relationships built on trust and quality service. Your happiness is our priority.</p>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className="section" style={{ textAlign: 'center' }}>
+                <div className="container">
+                    <h2 style={{ fontSize: '2rem', marginBottom: '20px', color: 'var(--primary-color)' }}>Ready to experience Bermach service?</h2>
+                    <Link to="/contact" className="btn btn-primary" style={{ padding: '12px 30px' }}>
+                        Get in Touch
+                    </Link>
                 </div>
             </section>
         </div>
