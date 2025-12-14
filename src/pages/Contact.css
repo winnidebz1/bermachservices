@@ -12,6 +12,12 @@
     text-align: center;
 }
 
+.contact-header h1 {
+    color: var(--text-white);
+    font-size: 3rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;

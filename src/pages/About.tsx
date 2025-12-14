@@ -1,4 +1,5 @@
 import './About.css';
+import aboutTeamImg from '../assets/about_team.png';
 
 const About = () => {
     return (
@@ -20,7 +21,7 @@ const About = () => {
                             </p>
                         </div>
                         <div className="about-image">
-                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80" alt="Travel Planning" />
+                            <img src={aboutTeamImg} alt="Travel Planning Team" />
                         </div>
                     </div>
                 </div>

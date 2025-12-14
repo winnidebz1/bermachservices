@@ -12,6 +12,12 @@
     text-align: center;
 }
 
+.why-header h1 {
+    color: var(--text-white);
+    font-size: 3rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .reasons-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

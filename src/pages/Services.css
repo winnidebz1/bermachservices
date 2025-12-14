@@ -13,6 +13,12 @@
     text-align: center;
 }
 
+.services-header h1 {
+    color: var(--text-white);
+    font-size: 3rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .services-list {
     display: flex;
     flex-direction: column;
