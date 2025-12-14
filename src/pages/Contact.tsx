@@ -38,7 +38,7 @@ const Contact = () => {
                                 <div className="info-icon"><Mail size={24} /></div>
                                 <div className="info-text">
                                     <h4>Email Us</h4>
-                                    <p>info@bemachtravel.com</p>
+                                    <p>info@bermachtravel.com</p>
                                 </div>
                             </div>
 

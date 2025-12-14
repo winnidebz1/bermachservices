@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     return (
         <div className="why-page">
             <header className="why-header">
-                <h1>Why Choose Bemach Travel & Tour?</h1>
+                <h1>Why Choose Bermach Travel & Tour?</h1>
             </header>
 
             <section className="section">

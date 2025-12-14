@@ -23,11 +23,11 @@ const Home = () => {
             <section className="section">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Welcome to Bemach Travel</h2>
+                        <h2>Welcome to Bermach Travel</h2>
                         <div style={{ width: '60px', height: '4px', background: '#FFA500', margin: '10px auto' }}></div>
                     </div>
                     <p className="intro-text">
-                        Bemach Travel & Tour is a trusted travel partner based in Suame, Kumasi, Ghana. With nearly eight years of experience in the travel industry, we are dedicated to creating unique and memorable travel experiences while building lasting relationships with our clients.
+                        Bermach Travel & Tour is a trusted travel partner based in Suame, Kumasi, Ghana. With nearly eight years of experience in the travel industry, we are dedicated to creating unique and memorable travel experiences while building lasting relationships with our clients.
                     </p>
                 </div>
             </section>
@@ -96,7 +96,7 @@ const Home = () => {
             <section className="section home-cta">
                 <div className="container">
                     <h2 style={{ fontSize: '2.5rem', marginBottom: '20px', color: 'white' }}>Let’s plan your next journey with ease.</h2>
-                    <p style={{ color: 'rgba(255,255,255,0.9)', marginBottom: '30px', fontSize: '1.2rem' }}>Experience the difference with Bemach Travel & Tour.</p>
+                    <p style={{ color: 'rgba(255,255,255,0.9)', marginBottom: '30px', fontSize: '1.2rem' }}>Experience the difference with Bermach Travel & Tour.</p>
                     <Link to="/contact" className="btn btn-primary" style={{ padding: '15px 40px', fontSize: '1.1rem' }}>Get Started Today</Link>
                 </div>
             </section>

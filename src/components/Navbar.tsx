@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <Plane className="logo-icon" size={28} />
-          BEMACH
+          BERMACH
         </Link>
 
         <div className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
@@ -53,7 +53,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <button 
+        <button
           className="mobile-menu-btn"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >

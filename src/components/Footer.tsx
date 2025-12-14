@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <h3>BEMACH</h3>
+                        <h3>BERMACH</h3>
                         <p className="footer-tagline">Your Trusted Travel Partner in Ghana.</p>
                         <div className="social-links" style={{ display: 'flex', gap: '16px' }}>
                             {/* Placeholders for now */}
@@ -51,14 +51,14 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Mail size={18} />
-                                <span>info@bemachtravel.com</span>
+                                <span>info@bermachtravel.com</span>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Bemach Travel & Tour. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Bermach Travel & Tour. All rights reserved.</p>
                     <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>Website concept designed by Branded By Winni.</p>
                 </div>
             </div>

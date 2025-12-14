@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="about-page">
             <header className="page-header">
-                <h1>About Bemach Travel & Tour</h1>
+                <h1>About Bermach Travel & Tour</h1>
             </header>
 
             <section className="section">
@@ -14,7 +14,7 @@ const About = () => {
                         <div className="about-text">
                             <h2 style={{ marginBottom: '20px', fontSize: '2rem' }}>Who We Are</h2>
                             <p style={{ marginBottom: '20px', color: 'var(--text-medium)' }}>
-                                Bemach Travel & Tour, operating under Bemachard Services, is a travel agency located in Suame, Kumasi, Ghana. We have been operating in the travel industry for nearly eight years, serving both leisure and business travelers.
+                                Bermach Travel & Tour, operating under Bermachard Services, is a travel agency located in Suame, Kumasi, Ghana. We have been operating in the travel industry for nearly eight years, serving both leisure and business travelers.
                             </p>
                             <p style={{ color: 'var(--text-medium)' }}>
                                 Our mission is to design unforgettable journeys while offering exceptional customer service with efficiency and professionalism. We believe every client deserves personalized attention, reliable guidance, and seamless travel arrangements.
